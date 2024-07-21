@@ -3,6 +3,10 @@
 ## Overview
 This Excel data validation tool is designed to automate the process of validating data records from Revit and IFC project data against specified criteria, converting data formats and exporting the results with detailed validation reports - which describe the percentage of parameter completion and their unique values. 
 
+
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/07/Validation-Revit-and-IFC-.jpg)
+
+
 ## Features
 - **Group Parameter Customization:** Ensures that the specified parameters exist for the groups specified in the tables.
 - **Report:** Generates a report indicating the results of the validation, including whether the parameters for groups exist and are populated, and their unique values.
