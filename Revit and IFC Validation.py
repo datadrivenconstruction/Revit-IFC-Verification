@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[65]:
+# In[2]:
 
 
 ##################################################################################################
 
-file_path_excel = r'C:\Users\Artem\Desktop\DDC\Validation\DDC IFC Validation.xlsx'
+file_path_excel = r'C:\Users\Artem\Desktop\DDC\Validation\DDC Revit and IFC Validation.xlsx'
 
 ##################################################################################################
 
