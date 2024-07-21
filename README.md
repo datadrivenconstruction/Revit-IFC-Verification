@@ -1,4 +1,4 @@
-# Excel Data Validation Tool
+# Revit and IFC Validation Tool
 
 ## Overview
 This Excel data validation tool is designed to automate the process of validating data records from Revit and IFC project data against specified criteria, converting data formats and exporting the results with detailed validation reports - which describe the percentage of parameter completion and their unique values. 
