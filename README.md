@@ -15,7 +15,7 @@ This Excel data validation tool is designed to automate the process of validatin
 
 ## Additional Resources
 
--   **DDC RVT&IFC Converter:** https://datadrivenconstruction.io/index.php/convertors/ for tools to convert between Revit and IFC and XLSX (DataFrame) format.
+-   **DDC RVT&IFC Converter:** https://datadrivenconstruction.io/index.php/convertors/ necessary free libraries for data conversion from Revit 2015-2023 and IFC2x3.
 
 
 ## Prerequisites
@@ -26,8 +26,7 @@ Before you can run this tool, ensure you have the following installed:
 
 
 You can install the necessary Python libraries using pip:
-\`\`\`bash
-pip install pandas openpyxl
+\`\`\`pip install pandas openpyxl
 \`\`\`
 
 ## Usage
@@ -35,12 +34,11 @@ To use this tool, follow these steps:
 
 1. **Setup Configuration:**
    - Open the \`DDC Revit and IFC Validation.xlsx\` file.
-   - Specify the paths to the input Excel files, define the data types for validation, and set the output parameters.
-
+   - Specify the file path in the excel file as well as the path to the converter libraries and define the data types to validate.
+   - 
 2. **Run the Tool:**
    - Execute the script from your terminal or command prompt:
-     \`\`\`bash
-     python excel_validation_tool.py
+     \`\`\`python excel_validation_tool.py
      \`\`\`
 
 3. **Review Reports:**
@@ -72,4 +70,3 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-"""
