@@ -51,8 +51,7 @@ To use this tool, follow these steps:
    - Adjust validation settings and rerun the tool if needed to fine-tune the results based on the initial output.
 
 ## Example
-Here is an example of setting up a validation rule in the \`config.xlsx\` file:
-
+All you need to fill in is only the address to the Excel table, where all the necessary parameters are already recorded
 | Parameter          | Value                  |
 | ------------------ | ---------------------- |
 | File Path (file_path_excel)            | \`C:\Validation\DDC IFC Validation.xlsx\`   
