@@ -43,7 +43,7 @@ This Excel data validation tool is designed to automate the process of validatin
    - This file contains all the necessary parameters and settings for the validation process.
 
 2. **Update the File Path in the Script:**
-   - Open the `Revit and IFC Validation.py` script.
+   - Open the `Revit_and_IFC_Validation.py` script.
    - Locate the variable `file_path_excel` in the script.
    - Update this variable to the path where the `DDC Revit and IFC Validation.xlsx` file is located.
      ```python
@@ -58,7 +58,7 @@ This Excel data validation tool is designed to automate the process of validatin
 
 1. Execute the script from your terminal or command prompt:
    ```sh
-   python Revit and IFC Validation.py
+   python Revit_and_IFC_Validation.py
    ```
 
 ## Review Reports
