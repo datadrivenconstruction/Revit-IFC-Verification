@@ -4,7 +4,7 @@
 This Excel data validation tool is designed to automate the process of validating data records from Revit and IFC project data against specified criteria, converting data formats and exporting the results with detailed validation reports - which describe the percentage of parameter completion and their unique values. 
 
 
-![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/data-driven-construction.io_.gif)
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/data-driven-construction.io-1.gif)
 
 
 ## Features
@@ -66,7 +66,7 @@ This Excel data validation tool is designed to automate the process of validatin
 
 1. Execute the script from your terminal or command prompt:
    ```sh
-   python Revit and IFC Validation.py
+   python Revit_and_IFC_Validation.py
    ```
 
 ## Review Reports
@@ -79,7 +79,11 @@ This Excel data validation tool is designed to automate the process of validatin
 1. Adjust validation settings in the Excel file if needed to fine-tune the results based on the initial output.
 2. Rerun the tool to apply the new settings.
 
----
+
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/2.jpg)
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/3.jpg)
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/4.jpg)
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/5.jpg)
 
 
 ## Contributing
