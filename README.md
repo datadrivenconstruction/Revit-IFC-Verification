@@ -49,7 +49,8 @@ You can install the necessary Python libraries using pip:
 ## Run the Tool
 
 1. Execute the script from your terminal or command prompt:
-   ```python Revit and IFC Validation.py
+   ```sh
+   python Revit and IFC Validation.py
    ```
 
 ## Review Reports
