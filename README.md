@@ -41,9 +41,12 @@ This Excel data validation tool is designed to automate the process of validatin
 
 1. **Open the `DDC Revit and IFC Validation.xlsx` file:**
    - This file contains all the necessary parameters and settings for the validation process.
+   - In the Excel document, specify the path to the Revit (IFC, DWG, DGN) file.
+   - On the next line, specify the path to the corresponding converter for Revit (IFC, DWG, DGN).
+     - This path must end with the folder "datadrivenlibs".
 
 2. **Update the File Path in the Script:**
-   - Open the `Revit_and_IFC_Validation.py` script.
+   - Open the `Revit and IFC Validation.py` script.
    - Locate the variable `file_path_excel` in the script.
    - Update this variable to the path where the `DDC Revit and IFC Validation.xlsx` file is located.
      ```python
@@ -54,11 +57,16 @@ This Excel data validation tool is designed to automate the process of validatin
    - Ensure that all paths to the converter libraries are correctly specified in the Excel file.
    - Define the data types to validate as required.
 
+## How to Use the Tool
+
+1. In the Excel table, write the group of elements (e.g., walls, windows, etc.) you want to validate.
+2. For each category, specify the parameters you want to check for presence and completeness in the project.
+
 ## Run the Tool
 
 1. Execute the script from your terminal or command prompt:
    ```sh
-   python Revit_and_IFC_Validation.py
+   python Revit and IFC Validation.py
    ```
 
 ## Review Reports
@@ -72,14 +80,6 @@ This Excel data validation tool is designed to automate the process of validatin
 2. Rerun the tool to apply the new settings.
 
 ---
-
-## Example Configuration
-
-You only need to fill in the address to the Excel table in the "Revit_and_IFC_Validation.py", where all the necessary parameters are already recorded.
-
-| Parameter                    | Value                                         |
-| ---------------------------- | --------------------------------------------- |
-| File Path (file_path_excel)  | `C:\Validation\DDC IFC Validation.xlsx`     |
 
 
 ## Contributing
