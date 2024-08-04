@@ -96,7 +96,7 @@ Contributions to this project are welcome! Here's how you can contribute:
 - **Create a Pull Request:** Open a pull request from your forked repository and we'll review your changes.
 
 ## Support
-If you encounter any issues or have questions, please file an issue on the GitHub repository.
+If you encounter any issues or have questions, please file an issue on the GitHub repository or write to info@datadrivenconstruction.io
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
