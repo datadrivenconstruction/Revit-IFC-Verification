@@ -32,10 +32,9 @@ This Excel data validation tool is designed to automate the process of validatin
    - You should see an output similar to `Python 3.x.x`.
 
 3. **Install Required Libraries:**
-   - Create a `requirements.txt` file with the necessary libraries or ensure you have a list of required libraries.
-   - Install the necessary libraries by running the following command in CMD:
+   - You can install the necessary Python libraries using pip:
      ```sh
-     pip install -r requirements.txt
+     pip install pandas openpyxl
      ```
 
 ## Setup Configuration
@@ -59,7 +58,7 @@ This Excel data validation tool is designed to automate the process of validatin
 
 1. Execute the script from your terminal or command prompt:
    ```sh
-   python Revit_and_IFC_Validation.py
+   python Revit and IFC Validation.py
    ```
 
 ## Review Reports
