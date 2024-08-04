@@ -19,15 +19,24 @@ This Excel data validation tool is designed to automate the process of validatin
 
 
 ## Prerequisites
-Before you can run this tool, ensure you have the following installed:
-- Python 3.6 or higher
-- pandas library
-- openpyxl library
 
+1. **Install Python:**
+   - Download and install Python from the official website: [Python.org](https://www.python.org/downloads/).
+   - Make sure to add Python to your system's PATH during installation.
 
-You can install the necessary Python libraries using pip:
-\`\`\`pip install pandas openpyxl
-\`\`\`
+2. **Verify Python Installation:**
+   - Open Command Prompt (CMD) and run the following command to check the Python version:
+     ```sh
+     python --version
+     ```
+   - You should see an output similar to `Python 3.x.x`.
+
+3. **Install Required Libraries:**
+   - Create a `requirements.txt` file with the necessary libraries or ensure you have a list of required libraries.
+   - Install the necessary libraries by running the following command in CMD:
+     ```sh
+     pip install -r requirements.txt
+     ```
 
 ## Setup Configuration
 
@@ -50,7 +59,7 @@ You can install the necessary Python libraries using pip:
 
 1. Execute the script from your terminal or command prompt:
    ```sh
-   python Revit and IFC Validation.py
+   python Revit_and_IFC_Validation.py
    ```
 
 ## Review Reports
@@ -67,11 +76,12 @@ You can install the necessary Python libraries using pip:
 
 ## Example Configuration
 
-You only need to fill in the address to the Excel table, where all the necessary parameters are already recorded.
+You only need to fill in the address to the Excel table in the "Revit_and_IFC_Validation.py", where all the necessary parameters are already recorded.
 
 | Parameter                    | Value                                         |
 | ---------------------------- | --------------------------------------------- |
 | File Path (file_path_excel)  | `C:\Validation\DDC IFC Validation.xlsx`     |
+
 
 ## Contributing
 Contributions to this project are welcome! Here's how you can contribute:
