@@ -29,32 +29,48 @@ You can install the necessary Python libraries using pip:
 \`\`\`pip install pandas openpyxl
 \`\`\`
 
-## Usage
-To use this tool, follow these steps:
+## Setup Configuration
 
-1. **Setup Configuration:**
-   - Open the \`DDC Revit and IFC Validation.xlsx\` file.
-   - Specify the file path in the excel file as well as the path to the converter libraries and define the data types to validate.
-   - 
-2. **Run the Tool:**
-   - Execute the script from your terminal or command prompt:
-     \`\`\`python excel_validation_tool.py
-     \`\`\`
+1. **Open the `DDC Revit and IFC Validation.xlsx` file:**
+   - This file contains all the necessary parameters and settings for the validation process.
 
-3. **Review Reports:**
-   - Open the generated report Excel file to review the validation results.
-   - Reports will include details such as data compliance rates, identified issues, and suggestions for corrections.
+2. **Update the File Path in the Script:**
+   - Open the `Revit and IFC Validation.py` script.
+   - Locate the variable `file_path_excel` in the script.
+   - Update this variable to the path where the `DDC Revit and IFC Validation.xlsx` file is located.
+     ```python
+     file_path_excel = r'C:\Validation\DDC IFC Validation.xlsx'
+     ```
 
-4. **Adjust Settings (Optional):**
-   - Adjust validation settings and rerun the tool if needed to fine-tune the results based on the initial output.
+3. **Specify Paths for Converter Libraries and Define Data Types to Validate:**
+   - Ensure that all paths to the converter libraries are correctly specified in the Excel file.
+   - Define the data types to validate as required.
 
-## Example
-All you need to fill in is only the address to the Excel table, where all the necessary parameters are already recorded
-| Parameter          | Value                  |
-| ------------------ | ---------------------- |
-| File Path (file_path_excel)            | \`C:\Validation\DDC IFC Validation.xlsx\`   
+## Run the Tool
 
+1. Execute the script from your terminal or command prompt:
+   ```python Revit and IFC Validation.py
+   ```
 
+## Review Reports
+
+1. Open the generated report Excel file to review the validation results.
+   - The report will include details such as data compliance rates, identified issues, and suggestions for corrections.
+
+## Adjust Settings (Optional)
+
+1. Adjust validation settings in the Excel file if needed to fine-tune the results based on the initial output.
+2. Rerun the tool to apply the new settings.
+
+---
+
+## Example Configuration
+
+You only need to fill in the address to the Excel table, where all the necessary parameters are already recorded.
+
+| Parameter                    | Value                                         |
+| ---------------------------- | --------------------------------------------- |
+| File Path (file_path_excel)  | `C:\Validation\DDC IFC Validation.xlsx`     |
 
 ## Contributing
 Contributions to this project are welcome! Here's how you can contribute:
