@@ -3,6 +3,9 @@
 ## Overview
 This Excel data validation tool is designed to automate the process of validating data records from Revit and IFC project data against specified criteria, converting data formats and exporting the results with detailed validation reports - which describe the percentage of parameter completion and their unique values. 
 
+![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/07/youtube-logo-youtube-icon-transparent-free-png-1.png) Check out our [Revit and IFC validation in seconds | Streamline Data Validation in CAD BIM Projects
+](https://www.youtube.com/watch?v=W12dlDUuSRc) for more information.
+
 
 ![enter image description here](https://datadrivenconstruction.io/wp-content/uploads/2024/08/data-driven-construction.io-1.gif)
 
